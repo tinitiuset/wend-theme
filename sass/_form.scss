@@ -1,0 +1,42 @@
+form {
+  width: 100%;
+}
+
+input[type="email"] {
+  margin-top: 20px;
+  width: 50%;
+  height: 55px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+
+input[type="email"]:focus {
+  background: rgba(102, 51, 153, 0.3);
+  color: #fff;
+  border: 1px solid violet;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  border-radius: 100px;
+  color: #fff;
+  margin-top: 20px;
+  height: 55px;
+  width: 50%;
+  background: #fa3380;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: purple;
+}
+
+.wpcf7-spinner {
+  display: none;
+}
