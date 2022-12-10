@@ -138,6 +138,8 @@ add_action( 'widgets_init', 'wend_widgets_init' );
  * Enqueue scripts and styles.
  */
 function wend_scripts() {
+    // Adding bootstrap
+    wp_enqueue_style('bootstrap',get_template_directory_uri().'/main.css', array(), _S_VERSION);
 	wp_enqueue_style( 'wend-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'wend-style', 'rtl', 'replace' );
 
